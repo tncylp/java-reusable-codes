@@ -1,6 +1,16 @@
+package Algorithms;
+
+import java.util.Arrays;
+
 public class SortingAlgorithms {
 
     public static void main(String[] args) {
+
+        int[] arr = {3,6,8,7,5,1,4,2};
+
+        insertionSort(arr);
+
+        System.out.println(Arrays.toString(arr));;
 
     }
 
